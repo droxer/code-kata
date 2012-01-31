@@ -1,0 +1,2 @@
+require 'specification'
+require 'fizz'

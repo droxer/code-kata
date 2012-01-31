@@ -1,0 +1,1 @@
+require "primier_factor"

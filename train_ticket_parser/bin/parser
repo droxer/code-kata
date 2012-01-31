@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require 'lib/parser.rb'
+f = File.open(File.expand_path("target.html", "spec/fixtures/"))
+info =""
+f.readlines.each do |line|
+  info << Iconv.conv("UTF-8", "GB2312", line)
+end
+f.close
+
+records = TrainInfo.new(info).records
+
+Viewer.new($stdout).table(records)

@@ -1,0 +1,5 @@
+require 'card_comparable'
+require 'card'
+require 'double'
+require 'trible'
+require 'three_plus_one'

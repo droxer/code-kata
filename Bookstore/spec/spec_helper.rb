@@ -1,0 +1,5 @@
+require 'book_store'
+require 'member'
+require 'rental'
+require 'book'
+require 'receipt'
