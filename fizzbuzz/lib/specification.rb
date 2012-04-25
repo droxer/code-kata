@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 class Specification
   attr_reader :representation
   
